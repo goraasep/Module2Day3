@@ -246,7 +246,7 @@ header {
   height: 284px;
 }
 
-.popular-title {
+.title-with-arrow {
   /* margin: 0 auto; */
   height: 70px;
 
@@ -258,11 +258,10 @@ header {
   color: #333333;
   text-align: left;
   display: flex;
-  gap: 943px;
 }
 
 .popular-arrow {
-  margin: auto;
+  margin: auto 0 auto auto;
   width: 40px;
   height: 40px;
 }
@@ -325,4 +324,124 @@ header {
   width: 82px;
   height: 1px;
   background: #333333;
+}
+
+.article-links {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.article-link {
+  height: 24px;
+  font-family: "Kaisei Decol";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #333333;
+}
+.article-link:hover {
+  text-decoration-line: none;
+}
+
+.featured-wrapper {
+  height: 618px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.featured-image {
+  width: 645px;
+  height: 618px;
+  border-radius: 32px;
+}
+
+.submited-articles-list {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 1320px;
+  height: 350px;
+}
+
+.email-wrapper {
+  height: 166px;
+  margin: auto;
+  background: #edecff;
+  /* Hello! If you have some questions, then you can just write an email to us ;) */
+
+  font-family: "Kaisei Decol";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 46px;
+  text-align: left;
+
+  /* General/Body text */
+  color: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-span {
+  color: #656565;
+  text-decoration: underline;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 630px auto;
+  width: 1320px;
+}
+
+.copyright {
+  /* margin-top: 0; */
+  /* © 2023 Articler. Some rights reserved. */
+  /* margin: 0 auto; */
+  width: 630px;
+  height: 38px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* General/Body text */
+  color: #333333;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: right;
+  gap: 60px;
+}
+
+.footer-link {
+  height: 19px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #333333;
+}
+
+.footer-link:hover {
+  font-weight: 400 !important;
 }
