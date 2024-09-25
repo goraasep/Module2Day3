@@ -1,0 +1,328 @@
+body {
+  margin: 0;
+}
+.remove-link {
+  text-decoration: none;
+  color: inherit;
+  background: none;
+  border: none;
+}
+
+.flex-justify-content-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  width: 1320px;
+}
+header {
+  background: #edecff;
+  height: 691px;
+  gap: 0px;
+  opacity: 0px;
+}
+.logo {
+  /* margin: 0 auto; */
+  width: 156px;
+  height: 34px;
+}
+
+.nav-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 200px;
+}
+
+.nav {
+  display: flex;
+  gap: 60px;
+  width: 564px;
+  height: 19px;
+}
+
+.nav-link {
+  width: 96px;
+  height: 19px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #333333;
+}
+
+.nav-link:hover {
+  font-weight: 800;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-icon {
+  margin-right: 30px;
+  width: 20px;
+  height: 20px;
+}
+.search-btn {
+  padding: 10px 30px;
+  height: 40px;
+  background: #fbf3eb;
+  border: none;
+}
+.search-btn p {
+  height: 19px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 5%;
+
+  color: #333333;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.hero-container {
+  display: grid;
+  /* grid-template-columns: 645px 675px; */
+  grid-template-columns: 645px auto;
+  margin-top: 58px;
+  margin-bottom: 37px;
+  height: 526px;
+}
+
+.hero-details {
+  margin-top: 49px;
+  /* TXT */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 60px;
+  width: 645px;
+  height: 394px;
+}
+
+.hero-title {
+  width: 597px;
+  height: 162px;
+
+  font-family: "Kaisei Decol";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 81px;
+
+  /* General/Body text */
+  color: #333333;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.hero-text {
+  width: 615px;
+  height: 72px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  /* General/Body text */
+  color: #333333;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.hero-btn {
+  /* Buttons / Primary */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 30px 10px 20px;
+  gap: 15px;
+
+  width: 196px;
+  height: 40px;
+
+  /* Main/Primary three */
+  background: #fdd9d3;
+  /* General/Body text */
+  border-left: 4px solid #333333;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.hero-btn p {
+  /* Submit */
+
+  margin: 0 auto;
+  height: 19px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #333333;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.hero-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-left: 30px;
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+}
+
+.card-item {
+  width: 195px;
+  display: flex;
+}
+
+.card-item:nth-child(even) {
+  flex-direction: column-reverse;
+}
+
+.card-item:nth-child(odd) {
+  flex-direction: column;
+}
+
+.card-image {
+  width: 195px;
+  height: 460px;
+  border-radius: 24px;
+}
+.card-footer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 12px;
+  color: #333333;
+}
+
+.spacer-1 {
+  margin: 30px auto;
+}
+
+.popular-wrapper {
+  height: 284px;
+}
+
+.popular-title {
+  /* margin: 0 auto; */
+  height: 70px;
+
+  font-family: "Kaisei Decol";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 70px;
+  color: #333333;
+  text-align: left;
+  display: flex;
+  gap: 943px;
+}
+
+.popular-arrow {
+  margin: auto;
+  width: 40px;
+  height: 40px;
+}
+
+.works-container {
+  margin: 60px auto;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.work-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+
+  width: 420px;
+  height: 93px;
+}
+
+.work-image {
+  width: 83px;
+  height: 83px;
+  border-radius: 100px;
+}
+
+.work-title {
+  width: 307px;
+  height: 35px;
+
+  font-family: "Kaisei Decol";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+
+  color: #333333;
+}
+.work-text {
+  width: 307px;
+  height: 48px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.separator {
+  position: relative;
+  height: 1px;
+  background: #f1f1f1;
+}
+.separator-decoration {
+  position: absolute;
+  left: 113px;
+  width: 82px;
+  height: 1px;
+  background: #333333;
+}
