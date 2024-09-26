@@ -359,6 +359,82 @@ header {
   border-radius: 32px;
 }
 
+.featured-articles {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.featured-article {
+  width: 645px;
+  height: 186px;
+  display: flex;
+  gap: 30px;
+}
+
+.featured-decorations-wrapper {
+  /* bullets */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 30px;
+
+  width: 420px;
+  height: 20px;
+}
+
+.featured-decoration {
+  margin: 0;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.featured-decoration p {
+  margin: 0;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #656565;
+}
+
+.featured-title {
+  margin-top: 5px;
+  width: 420px;
+  height: 35px;
+
+  font-family: "Kaisei Decol";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #333333;
+}
+
+.featured-text {
+  margin-top: 30px;
+  width: 420px;
+  height: 96px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  /* text-wrap: wrap; */
+  word-break: break-all;
+  /* white-space: normal; */
+}
+
+.featured-icon {
+  width: 16.25px;
+  height: 17.92px;
+}
+
 .submited-articles-list {
   margin-top: 30px;
   display: flex;
