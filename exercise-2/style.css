@@ -353,10 +353,136 @@ header {
   justify-content: space-between;
 }
 
+.featured-image-wrapper {
+  position: relative;
+}
+.featured-image-details {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  width: 585px;
+  height: 148px;
+}
 .featured-image {
   width: 645px;
   height: 618px;
   border-radius: 32px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.1) 63.11%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+}
+
+.featured-image-header {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+
+  margin: 0 auto;
+  width: 174px;
+  height: 28px;
+}
+.image-tag {
+  /* category */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 15px;
+
+  width: 67px;
+  height: 20px;
+}
+
+.white-btn {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+
+  width: 77px;
+  height: 28px;
+
+  background: #ffffff;
+  border-radius: 8px;
+  border: none;
+}
+
+.image-tag {
+  height: 18px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #333333;
+}
+
+.featured-image-title {
+  width: 585px;
+  height: 35px;
+
+  font-family: "Kaisei Decol";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.featured-image-decorations-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 60px;
+
+  width: 585px;
+  height: 20px;
+}
+
+.featured-image-decoration {
+  margin: 0;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  color: #ffffff;
+}
+.featured-image-decoration p {
+  margin: 0;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.featured-image-text {
+  width: 585px;
+  height: 48px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 30px;
 }
 
 .featured-articles {
